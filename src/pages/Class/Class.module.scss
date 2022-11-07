@@ -40,9 +40,6 @@
         border-radius: 20px;
         width: 100px;
         
-        &:hover{
-          // background: fixed;
-        }
         
         .class_number{
           font-size: 2em;
@@ -67,9 +64,4 @@
   .main_container{
     width: 100% ;
   }
-}
-
-
-@media(max-width:768px){
-
 }

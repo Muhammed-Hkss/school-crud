@@ -70,18 +70,6 @@
           align-items: center;
           transition: .2s;
           
-      
-          // &-thumb-active{
-          //   box-shadow: 0 0 10px white;
-          //   position: relative;
-          //   display: flex;
-          //   justify-content: center;
-          //   align-items: center;
-          //   border: solid 1px white;
-          //   box-shadow: 0 0 10px white;
-          //   border-radius: 20px;
-          // }
-      
           img{
             position: relative;
             object-fit: cover;
@@ -125,7 +113,6 @@
     
     .customize_image_data{
       display: none;
-      
     }
     
     .customize_text_data{
