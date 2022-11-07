@@ -6,13 +6,13 @@
 
   .row{
     display: grid;
-    justify-content: start;
+    // justify-content: start;
     align-items: center;
     padding: 0px 100px;
 
     .text_data{
       width: 600px;
-      text-align: start;
+      // text-align: end;
 
       .text_h1{
         color: white;
@@ -29,7 +29,6 @@
     }
     .submit_data{
       display: flex;
-      justify-content: start;
       align-items: center;
       margin: 40px;
 

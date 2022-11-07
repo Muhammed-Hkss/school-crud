@@ -64,10 +64,10 @@ const StudentMore = () => {
                   <img className={cls.student_img} src={item.url} alt="" />
                 </div>
                 <p>date: {item.date}</p>
-                <p>class: {item.class}</p>
-                <p>first name: {item.firsname}</p>
-                <p>last name: {item.lastname}</p>
+                <p>first-name: {item.firsname}</p>
+                <p>last-name: {item.lastname}</p>
                 <p>age: {item.age}</p>
+                <p>class: {item.class}</p>
               </div>
             ))
           }
