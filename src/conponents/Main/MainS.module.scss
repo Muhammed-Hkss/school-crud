@@ -1,0 +1,155 @@
+.container{
+  background: url('https://www.vidyalankar.org/assets/img/banner.jpg')center / cover;
+  width: 1854px;
+  height: 92vh;
+  margin: auto;
+
+  .row{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 100px;
+
+    .text_data{
+      width: 600px;
+      text-align: end;
+
+      .text_h1{
+        color: white;
+        font-size: 60px;
+      }
+      .text_p{
+        color: white;
+        font-size: 25px;
+      }
+      .text_b{
+        color: white;
+        font-size: 27px;
+      }
+    }
+    .submit_data{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin: 40px;
+
+      .submit{
+        border: none;
+        cursor: pointer;
+        background-color: rgb(247, 139, 100);
+        color: white;
+        border-radius: 50px;
+        padding: 20px;
+      }
+    }
+
+  }
+}
+
+
+@media (max-width:1824px){
+  .container{
+    width: 100%;
+    margin: auto; 
+  }
+}
+
+@media (max-width:768px){
+  .container{
+    background: url('https://vogazeta.ru/uploads/1585655008-fb5a07f233728bd532dab9efa8f8b5af.jpg')center / cover;
+    width: 100%;
+    height: 100%;
+    margin: auto; 
+
+
+    .row{
+      display: grid;
+      justify-content: end;
+      align-items: center;
+  
+      .text_data{
+        width: 300px;
+        text-align: end;
+  
+        .text_h1{
+          color: rgb(248, 245, 245);
+          font-size: 30px;
+        }
+        .text_p{
+          color: rgb(253, 251, 249);
+          font-size: 15px;
+        }
+        .text_b{
+          color: white;
+          font-size: 17px;
+        }
+      }
+      .submit_data{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+  
+        .submit{
+          border: none;
+          cursor: pointer;
+          background-color: rgb(247, 139, 100);
+          color: white;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: 425px){
+  .container{
+    background: url('https://i2.wp.com/www.thebalancecareers.com/thmb/SmZ7I-JyEh9z7nhAnismRn2kOY0=/5612x3741/filters:fill(auto,1)/attractive-young-woman-at-the-library-chin-on-hand-524165792-57265f823df78ced1fd9eb6a.jpg')center / cover;
+    width: 100%;
+    margin: auto; 
+
+
+    .row{
+      display: grid;
+      justify-content: center;
+      align-items: center;
+  
+      .text_data{
+        width: 300px;
+        text-align: start;
+  
+        .text_h1{
+          color: rgb(255, 254, 254);
+          font-size: 30px;
+        }
+        .text_p{
+          color: white;
+          font-size: 15px;
+        }
+        .text_b{
+          color: white;
+          font-size: 17px;
+        }
+      }
+      .submit_data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+  
+        .submit{
+          border: none;
+          cursor: pointer;
+          background-color: rgb(247, 139, 100);
+          color: white;
+          border-radius: 50px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+

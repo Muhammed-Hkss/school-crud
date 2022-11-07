@@ -1,0 +1,71 @@
+.container{
+  width: 1850px;
+  margin: auto;
+
+  .number_calss{
+    display: flex;
+    justify-content: center;
+
+    .text_calss{
+      position: absolute;
+      padding: 10px;
+      background-color: white;
+      border-radius: 10px;
+    }
+  }
+
+
+
+  .data_students{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 6em;
+    gap: 20px;
+    // padding: 10px;
+
+    .error_class{
+      color: white;
+      font-size: 50px;
+    }
+
+
+    .list{
+        // text-align: center;
+        background-color: white;
+        width: 310px;
+        padding: 2em;
+        border-radius: 1em;
+  
+        .student_img_data{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          .student_img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+          }
+        }
+    }
+  }
+
+  
+}
+
+@media (max-width:1024px){
+  .container{
+    width: 768px;
+    margin: auto;
+    
+  }
+}
+
+@media (max-width:768px){
+  .container{
+    width: 90%;
+    margin: auto;
+  }
+}

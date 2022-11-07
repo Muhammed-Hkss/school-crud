@@ -1,0 +1,60 @@
+.container{
+  width: 1850px;
+  margin: auto;
+  padding: 10px;
+
+  .get_data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+    .get_select1{
+      display: flex;
+      border: none;
+      cursor: pointer;
+      background-color: rgb(255, 255, 255);
+      color: rgb(5, 5, 5);
+      border-radius: 5px;
+      height: 40px;
+
+      // option{
+      //   background-color:lightskyblue ;
+      // }
+   }
+
+   .get_select2{
+      display: flex;
+      border: none;
+      cursor: pointer;
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+      height: 40px;
+   }
+  }
+
+  .post_button_data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    .post_button{
+      width: 100px;
+      height: 40px;
+      font-size: 17px;
+      border-radius: 7px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+
+@media(max-width:1024px){
+  .container{
+    width: 100%;
+  }
+}
